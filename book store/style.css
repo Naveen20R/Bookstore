@@ -1,0 +1,253 @@
+i.book {
+  font-size: 140%;
+  margin-left: 15%;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+  0% {
+    color: black;
+  }
+
+  20% {
+    color: yellow;
+  }
+
+  30% {
+    color: blue;
+  }
+
+  40% {
+    color: #7FFF00;
+  }
+
+  50% {
+    color: rgb(250, 36, 196);
+  }
+
+  70% {
+    color: rgb(110, 35, 92);
+  }
+
+  85% {
+    color: yellow
+  }
+
+  100% {
+    color: green;
+  }
+}
+
+
+header {
+  background: linear-gradient(to bottom, #ff0000 0%, #ff0066 99%)
+}
+
+.book {
+  color: white;
+}
+
+a.nav-link {
+
+  color: white;
+}
+
+div.col-md-7 {
+  margin-top: 110px;
+}
+
+div .white {
+  color: white;
+}
+
+div .white {
+  color: white;
+}
+
+div .white {
+  color: white;
+}
+
+header button.btn {
+  color: black;
+  background-color: white;
+  border-radius: 360px
+}
+
+/*section one*/
+section img {
+  opacity: 0.8;
+  margin-right: 10px;
+  width: 110%;
+  height: 97%;
+}
+
+section h1 .color {
+  color: black;
+
+  font-family: benne;
+}
+
+/*section tow*/
+h1.color1 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 40%;
+}
+
+p.color1 {
+  position: absolute;
+  margin-top: -580px;
+  margin-left: 30%;
+}
+
+div .col-sm-3 {
+  width: 20%;
+  margin-left: 4%;
+  margin-top: 10px;
+  box-shadow: 2px 5px 2px 0px red;
+}
+
+div.shad {
+  box-shadow: 2px 5px 6px 10px red;
+}
+
+/* section three*/
+h1.titel {
+  font-family: cursive;
+}
+
+/*  box one*/
+div.content {
+  width: 100%;
+
+}
+
+div a.boxes {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+}
+
+div a .boxes {
+  border-radius: 100px;
+}
+
+/*section 3 this is content*/
+
+div.container {
+  width: 100%;
+
+}
+
+div.box1 {
+  float: left;
+}
+
+/*pitcher*/
+
+div.first {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*footer*/
+footer button {
+  margin-top: 50%
+}
+
+footer {
+  background: linear-gradient(to bottom, #ff0000 0%, #ff0066 99%)
+}
+
+form.red {
+  margin-top: -40%;
+}
+
+a.co {
+  color: white;
+  text-decoration: none;
+}
+
+div.insta {
+  margin-top: 30%;
+}
+
+#socialMedia {
+  margin-top: -20px;
+}
+
+#header {
+  list-style-type: none;
+}
+
+#aboutUs {
+  list-style-type: none;
+}
+
+#aboutUs>li>a {
+  color: black;
+  text-decoration: none;
+}
+
+#aboutUs>li>a:hover {
+  color: white;
+}
+
+#appLink {
+  margin-left: 260px;
+}
+
+#content {
+  margin-top: 20px;
+  margin-left: 440px;
+}
+
+#content1 {
+  margin-top: 60px;
+  margin-left: 200px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #content {
+    color: red;
+    margin-left: 0px;  
+  }
+  #content1{
+    margin-left: 0px;
+    margin-top: 100px; 
+  }
+  #playStore{
+    margin-top: 20px;  
+  }
+  #men{
+    padding: 10px;
+    margin-left: 30px;
+    width: 80%;
+    height: 15em;
+  }
+  .text-left{
+    padding: 20px;
+  }
+  #sectionFour{
+    display: none;
+  }
+  #header{
+    display: none;
+  }
+}
+@media only screen and (min-width: 700px) {
+  #playStore{
+   margin-left: 600px;
+   margin-top: -82px;
+   height: 85x;
+   text-align: center;
+    
+  }
+}
